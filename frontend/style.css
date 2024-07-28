@@ -172,9 +172,9 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     color: white;
-    opacity: 0.9;
+    opacity: 1;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .card:hover {
@@ -211,7 +211,7 @@ footer {
 
 .button-primary {
     background-color: var(--primary-color);
-    color: #fff;
+    color: #f3d5d5;
 }
 
 .button-primary:hover {
@@ -226,7 +226,7 @@ footer {
 
 .button-secondary:hover {
     background-color: var(--secondary-color);
-    color: #fff;
+    color: #cb4747;
     transform: scale(var(--hover-scale));
 }
 
